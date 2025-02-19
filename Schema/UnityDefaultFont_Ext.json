@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "UnityDefaultFont_Ext (Unspecified Value Types)",
+  "type": "object",
+  "properties": {
+    "m_Name": {},
+    "m_LineSpacing": {},
+    "m_DefaultMaterial": {
+      "type": "object",
+      "properties": {
+        "m_FileID": {},
+        "m_PathID": {}
+      }
+    },
+    "m_FontSize": {},
+    "m_Texture": {
+      "type": "object",
+      "properties": {
+        "m_FileID": {},
+        "m_PathID": {}
+      }
+    },
+    "m_AsciiStartOffset": {},
+    "m_Tracking": {},
+    "m_CharacterSpacing": {},
+    "m_CharacterPadding": {},
+    "m_ConvertCase": {},
+    "m_CharacterRects": {
+      "type": "object",
+      "properties": {
+        "Array": {
+          "type": "array",
+          "items": {}
+        }
+      }
+    },
+    "m_KerningValues": {
+      "type": "object",
+      "properties": {
+        "Array": {
+          "type": "array",
+          "items": {}
+        }
+      }
+    },
+    "m_PixelScale": {},
+    "m_FontData": {
+      "type": "object",
+      "properties": {
+        "Array": {
+          "type": "array",
+          "items": {}
+        }
+      }
+    },
+    "m_Ascent": {},
+    "m_Descent": {},
+    "m_DefaultStyle": {},
+    "m_FontNames": {
+      "type": "object",
+      "properties": {
+        "Array": {
+          "type": "array",
+          "items": {}
+        }
+      }
+    },
+    "m_FallbackFonts": {
+      "type": "object",
+      "properties": {
+        "Array": {
+          "type": "array",
+          "items": {}
+        }
+      }
+    },
+    "m_FontRenderingMode": {}
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NGUI_Sprite_MonoBehavior Schema (Unspecified Value Types)",
+  "type": "object",
+  "properties": {
+    "m_GameObject": {
+      "type": "object",
+      "properties": {
+        "m_FileID": {},
+        "m_PathID": {}
+      }
+    },
+    "m_Enabled": {},
+    "m_Script": {
+      "type": "object",
+      "properties": {
+        "m_FileID": {},
+        "m_PathID": {}
+      }
+    },
+    "m_Name": {},
+    "material": {
+      "type": "object",
+      "properties": {
+        "m_FileID": {},
+        "m_PathID": {}
+      }
+    },
+    "mSprites": {
+      "type": "object",
+      "properties": {
+        "Array": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "data": {
+                "type": "object",
+                "properties": {
+                  "name": {},
+                  "x": {},
+                  "y": {},
+                  "width": {},
+                  "height": {},
+                  "borderLeft": {},
+                  "borderRight": {},
+                  "borderTop": {},
+                  "borderBottom": {},
+                  "paddingLeft": {},
+                  "paddingRight": {},
+                  "paddingTop": {},
+                  "paddingBottom": {}
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "mPixelSize": {},
+    "mReplacement": {
+      "type": "object",
+      "properties": {
+        "m_FileID": {},
+        "m_PathID": {}
+      }
+    }
+  }
+}

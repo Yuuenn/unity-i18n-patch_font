@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NGUI_MonoBehavior (Unspecified Value Types)",
+  "type": "object",
+  "properties": {
+    "m_GameObject": {
+      "type": "object",
+      "properties": {
+        "m_FileID": {},
+        "m_PathID": {}
+      }
+    },
+    "m_Enabled": {},
+    "m_Script": {
+      "type": "object",
+      "properties": {
+        "m_FileID": {},
+        "m_PathID": {}
+      }
+    },
+    "m_Name": {},
+    "mType": {},
+    "mMat": {
+      "type": "object",
+      "properties": {
+        "m_FileID": {},
+        "m_PathID": {}
+      }
+    },
+    "mUVRect": {
+      "type": "object",
+      "properties": {
+        "x": {},
+        "y": {},
+        "width": {},
+        "height": {}
+      }
+    },
+    "mFont": {
+      "type": "object",
+      "properties": {
+        "mSize": {},
+        "mBase": {},
+        "mWidth": {},
+        "mHeight": {},
+        "mSpriteName": {},
+        "mSaved": {
+          "type": "object",
+          "properties": {
+            "Array": {
+              "type": "array",
+              "items": {}
+            }
+          }
+        }
+      }
+    },
+    "mAtlas": {
+      "type": "object",
+      "properties": {
+        "m_FileID": {},
+        "m_PathID": {}
+      }
+    },
+    "mReplacement": {
+      "type": "object",
+      "properties": {
+        "m_FileID": {},
+        "m_PathID": {}
+      }
+    },
+    "mSymbolAtlas": {
+      "type": "object",
+      "properties": {
+        "m_FileID": {},
+        "m_PathID": {}
+      }
+    },
+    "mSymbolScale": {},
+    "mSymbolOffset": {},
+    "mSymbolMaxHeight": {},
+    "mSymbols": {
+      "type": "object",
+      "properties": {
+        "Array": {
+          "type": "array",
+          "items": {}
+        }
+      }
+    },
+    "mDynamicFont": {
+      "type": "object",
+      "properties": {
+        "m_FileID": {},
+        "m_PathID": {}
+      }
+    },
+    "mDynamicFontSize": {},
+    "mDynamicFontStyle": {},
+    "mSpaceWidth": {}
+  }
+}

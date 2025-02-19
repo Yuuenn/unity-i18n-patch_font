@@ -1,0 +1,156 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TextMeshPro_MonoBehavior Schema (Unspecified Value Types)",
+  "type": "object",
+  "properties": {
+    "m_GameObject": {
+      "type": "object",
+      "properties": {
+        "m_FileID": {},
+        "m_PathID": {}
+      }
+    },
+    "m_Enabled": {},
+    "m_Script": {
+      "type": "object",
+      "properties": {
+        "m_FileID": {},
+        "m_PathID": {}
+      }
+    },
+    "m_Name": {},
+    "hashCode": {},
+    "material": {
+      "type": "object",
+      "properties": {
+        "m_FileID": {},
+        "m_PathID": {}
+      }
+    },
+    "materialHashCode": {},
+    "fontAssetType": {},
+    "m_fontInfo": {
+      "type": "object",
+      "properties": {
+        "Name": {},
+        "PointSize": {},
+        "Scale": {},
+        "CharacterCount": {},
+        "LineHeight": {},
+        "Baseline": {},
+        "Ascender": {},
+        "CapHeight": {},
+        "Descender": {},
+        "CenterLine": {},
+        "SuperscriptOffset": {},
+        "SubscriptOffset": {},
+        "SubSize": {},
+        "Underline": {},
+        "UnderlineThickness": {},
+        "strikethrough": {},
+        "strikethroughThickness": {},
+        "TabWidth": {},
+        "Padding": {},
+        "AtlasWidth": {},
+        "AtlasHeight": {}
+      }
+    },
+    "atlas": {
+      "type": "object",
+      "properties": {
+        "m_FileID": {},
+        "m_PathID": {}
+      }
+    },
+    "m_glyphInfoList": {
+      "type": "object",
+      "properties": {
+        "Array": {
+          "type": "array",
+          "items": {}
+        }
+      }
+    },
+    "m_kerningInfo": {
+      "type": "object",
+      "properties": {
+        "kerningPairs": {
+          "type": "object",
+          "properties": {
+            "Array": {
+              "type": "array",
+              "items": {}
+            }
+          }
+        }
+      }
+    },
+    "m_kerningPair": {
+      "type": "object",
+      "properties": {
+        "AscII_Left": {},
+        "AscII_Right": {},
+        "XadvanceOffset": {}
+      }
+    },
+    "fallbackFontAssets": {
+      "type": "object",
+      "properties": {
+        "Array": {
+          "type": "array",
+          "items": {}
+        }
+      }
+    },
+    "fontCreationSettings": {
+      "type": "object",
+      "properties": {
+        "fontSourcePath": {},
+        "fontSizingMode": {},
+        "fontSize": {},
+        "fontPadding": {},
+        "fontPackingMode": {},
+        "fontAtlasWidth": {},
+        "fontAtlasHeight": {},
+        "fontCharacterSet": {},
+        "fontStyle": {},
+        "fontStlyeModifier": {},
+        "fontRenderMode": {},
+        "fontKerning": {}
+      }
+    },
+    "fontWeights": {
+      "type": "object",
+      "properties": {
+        "Array": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "regularTypeface": {
+                "type": "object",
+                "properties": {
+                  "m_FileID": {},
+                  "m_PathID": {}
+                }
+              },
+              "italicTypeface": {
+                "type": "object",
+                "properties": {
+                  "m_FileID": {},
+                  "m_PathID": {}
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "normalStyle": {},
+    "normalSpacingOffset": {},
+    "boldStyle": {},
+    "boldSpacing": {},
+    "italicStyle": {},
+    "tabSize": {}
+  }
+}

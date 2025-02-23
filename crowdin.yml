@@ -1,5 +1,0 @@
-files:
-  - source: /src/sddt_1.45_zh-CN/*.csv
-    translation: sddt_1.45_zh-CN/%file_name%.csv
-    first_line_contains_header: 1
-    scheme: 'identifier,source_phrase,translation,context,labels'
